@@ -1,6 +1,4 @@
-# Cyclistic-bike-share-analysis
-
-Case Study: Cyclistic Bike-Share Case Study
+# Case Study: Cyclistic Bike-Share Analysis
 ### Project Overview
 
 This project analyzes historical trip data from Cyclistic, a bike-share company based in Chicago. The goal is to understand the behavioral differences between casual riders and annual members and provide data-driven recommendations to help the marketing team convert casual riders into annual members.
@@ -32,17 +30,17 @@ Divvy Trip Data (provided by Motivate International Inc.)
 
 Data includes:
 
-Ride ID
+- Ride ID
 
-Rideable type
+- Rideable type
 
-Start and end time
+- Start and end time
 
-Start station
+- Start station
 
-End station
+- End station
 
-User type (member or casual)
+- User type (member or casual)
 
 Public dataset:
 https://divvy-tripdata.s3.amazonaws.com/index.html

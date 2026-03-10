@@ -1,4 +1,4 @@
-# Case Study: Cyclistic Bike-Share Analysis
+# Case Study: Cyclistic Bike Share - Data Cleaning with SQL
 ### Project Overview
 
 This project analyzes historical trip data from Cyclistic, a bike-share company based in Chicago. The goal is to understand the behavioral differences between casual riders and annual members and provide data-driven recommendations to help the marketing team convert casual riders into annual members.
@@ -80,99 +80,7 @@ Steps taken to prepare the dataset:
 
 6. Standardized column formats across all monthly datasets
 
-### Exploratory Data Analysis
-
-The analysis focused on identifying patterns between casual riders and members.
-
-Key metrics analyzed:
-
-- Average ride duration
-
-- Ride frequency by day of week
-
-- Ride frequency by month
-
-- Rideable bike type usage
-
-- Peak riding hours
-
-### Key Insights
-1. Casual riders take longer trips
-
-Casual riders tend to have longer ride durations, suggesting that they primarily use bikes for leisure and recreation.
-
-2. Members ride more frequently
-
-Annual members take more frequent but shorter rides, indicating that bikes are often used for commuting or daily transportation.
-
-3. Weekend vs weekday usage
-
-Casual riders are most active on weekends
-
-Members ride consistently throughout the workweek
-
-4. Seasonal trends
-
-Casual riding increases significantly during summer months, while member usage remains more stable year-round.
 
 
-### Data Visualizations
-
-Example visualizations included in this project:
-
-- Ride frequency by user type
-
-- Average ride duration comparison
-
-- Rides by day of week
-
-- Monthly riding trends
-
-- Bike type distribution
-
-(Visual dashboards can be found in the /visualizations folder.)
-
-### Marketing Recommendations
-
-Based on the analysis, the following strategies are recommended:
-
-1. Weekend Membership Promotions
-
-Offer weekend riders discounted membership upgrades when they frequently rent bikes.
-
-2. Seasonal Membership Campaigns
-
-Launch summer marketing campaigns targeting casual riders when demand is highest.
-
-3. Ride Duration Incentives
-
-Promote the cost savings of membership for riders who frequently take long leisure rides.
-
-4. Digital Marketing Campaigns
-
-Use email and app notifications to target repeat casual riders with personalized membership offers.
-
-### Project Structure
-Cyclistic-Bike-Share-Analysis
-│
-├── data
-│   ├── raw_data
-│   └── cleaned_data
-│
-├── notebooks
-│   └── analysis.ipynb
-│
-├── sql
-│   └── data_cleaning.sql
-│
-├── visualizations
-│   └── charts_and_dashboards
-│
-└── README.md
 
 
-### Conclusion
-
-This analysis shows clear behavioral differences between casual riders and members. Casual riders primarily use Cyclistic for recreational weekend trips, while members rely on bikes for consistent transportation during the week.
-
-By targeting high-frequency casual riders with strategic marketing campaigns, Cyclistic can increase annual memberships and drive long-term revenue growth.

@@ -48,17 +48,21 @@ Data includes:
 
 ### Prepare (Data Collection)
 
-| Column                | Description                   |
-| --------------------- | ----------------------------- |
-| ride_id               | Unique trip ID                |
-| rideable_type         | Type of bike                  |
-| started_at            | Trip start time               |
-| ended_at              | Trip end time                 |
-| start_station_name    | Starting station              |
-| end_station_name      | Ending station                |
-| start_lat / start_lng | Start coordinates             |
-| end_lat / end_lng     | End coordinates               |
-| member_casual         | Rider type (member or casual) |
+| Fields                | Description                   |Data Type
+| --------------------- | ----------------------------- |------------
+| ride_id               | Unique trip ID                | text
+| rideable_type         | Type of bike                  | text
+| started_at            | Trip start time               | datetime
+| ended_at              | Trip end time                 | datetime
+| start_station_name    | Starting station name         | text
+| start_station_id      | Starting station id           | float
+| end_station_name      | Ending station name           | text
+| end_station_id        | Ending station id             | text
+| start_lat             | Starting latitude             | flaot
+| start_lng             | Starting longitude            | float
+| end_lat               | Ending latitude               | float
+| end_lng               | Ending longitude              | float
+| member_casual         | Rider type (member or casual) | text
 
 
 

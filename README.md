@@ -39,9 +39,13 @@ Data includes:
 
 - Start and end time
 
-- Start station
+- Start station and end station name
 
-- End station
+- Start and end station id
+
+- Start and end latitude
+
+- Start and end longitude
 
 - User type (member or casual)
 
@@ -57,8 +61,8 @@ Data includes:
 | start_station_name    | Starting station name         | text
 | start_station_id      | Starting station id           | float
 | end_station_name      | Ending station name           | text
-| end_station_id        | Ending station id             | text
-| start_lat             | Starting latitude             | flaot
+| end_station_id        | Ending station id             | float
+| start_lat             | Starting latitude             | float
 | start_lng             | Starting longitude            | float
 | end_lat               | Ending latitude               | float
 | end_lng               | Ending longitude              | float
@@ -66,31 +70,32 @@ Data includes:
 
 
 
-
 ### Tools Used
 
-- SQL – Data cleaning and transformation
+- SQL –> Data cleaning and transformation
 
-- Excel – Initial exploration
+- Excel –> Initial exploration
 
-- R – Data analysis
+- R –> Data analysis
 
-- Tableau / Power BI – Data visualization
+- Tableau  –> Data visualization
 
-- GitHub – Project documentation and version control
+- GitHub –> Project documentation and version control
 
 
 ### Data Cleaning & Processing
 
 Steps taken to prepare the dataset:
 
-1. Removed duplicate ride IDs
+1.Combined all the data (12 months) in one table
 
-2. Removed rows with missing critical values
+2. Removed duplicate ride IDs
 
-3. Converted date/time columns into proper formats
+3. Removed rows with missing critical values
 
-4. Created additional fields:
+4. Converted date/time columns into proper formats
+
+5. Created additional fields:
 
 - Ride length (ride_length: ride_length = ended_at - started_at)
 

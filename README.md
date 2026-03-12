@@ -87,7 +87,7 @@ Data includes:
 
 Steps taken to prepare the dataset:
 
-1.Combined all the data (12 months) in one table
+1. Combined all the data (12 months) in one table
 
 2. Removed duplicate ride IDs
 

@@ -1,56 +1,28 @@
-# Case Study: Cyclistic Bike Share - Data Cleaning with SQL
-### Project Overview
+# Cyclistic Bike-Share Case Study
 
-This project analyzes historical trip data from Cyclistic, a bike-share company based in Chicago. The goal is to understand the behavioral differences between casual riders and annual members and provide data-driven recommendations to help the marketing team convert casual riders into annual members.
-
-The analysis follows the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act, commonly used in professional analytics workflows.
+## Data Cleaning with SQL
 
 ### Business Task
 
-The marketing director, Lily Moreno, believes that the company’s future growth depends on increasing the number of annual memberships.
-The main business question:
-How do casual riders and annual members use Cyclistic bikes differently?
+Cyclistic wants to understand how casual riders and annual members use bikes differently in order to design marketing strategies that convert casual riders into members.
 
-By answering this question, we can develop marketing strategies that encourage casual riders to become members.
+### Data Source
 
-### Key Stakeholders
+Divvy bike trip dataset (2025).
 
-Cyclistic Executive Team – Decision makers who will approve marketing strategies
+  
+### Tools Used
 
-Lily Moreno (Director of Marketing) – Responsible for campaign development
+- Microsoft SQL Server –> Data cleaning and transformation
 
-Cyclistic Marketing Analytics Team – Responsible for collecting and analyzing data
+- Excel –> Initial exploration
 
-### Dataset
+- Tableau  –> Data visualization
 
-The dataset used for this analysis contains historical Cyclistic bike trip data.
+- GitHub –> Project documentation and version control
 
-Dataset source:
-Divvy Trip Data (provided by Motivate International Inc.)
-
-Public dataset:
-https://divvy-tripdata.s3.amazonaws.com/index.html
-
-Data includes:
-
-- Ride ID
-
-- Rideable type
-
-- Start and end time
-
-- Start station and end station name
-
-- Start and end station id
-
-- Start and end latitude
-
-- Start and end longitude
-
-- User type (member or casual)
-
-
-### Prepare (Data Collection)
+  
+### Data Exploration
 
 | Fields                | Description                   |Data Type
 | --------------------- | ----------------------------- |------------
@@ -69,21 +41,7 @@ Data includes:
 | member_casual         | Rider type (member or casual) | text
 
 
-
-### Tools Used
-
-- SQL –> Data cleaning and transformation
-
-- Excel –> Initial exploration
-
-- R –> Data analysis
-
-- Tableau  –> Data visualization
-
-- GitHub –> Project documentation and version control
-
-
-### Data Cleaning & Processing
+### Data Cleaning
 
 Steps taken to prepare the dataset:
 
@@ -91,7 +49,7 @@ Steps taken to prepare the dataset:
 
 2. Data inspection
    
-Check:
+#### Check:
 
 - Column names
 

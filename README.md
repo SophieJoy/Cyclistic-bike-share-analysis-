@@ -13,11 +13,9 @@ Divvy bike trip dataset (2025).
   
 ### Tools Used
 
-- Microsoft SQL Server –> Data cleaning and transformation
-
 - Excel –> Initial exploration
 
-- Tableau  –> Data visualization
+- Microsoft SQL Server –> Data cleaning and transformation
 
 - GitHub –> Project documentation and version control
 

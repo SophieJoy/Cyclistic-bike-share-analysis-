@@ -55,7 +55,13 @@ Steps taken to prepare the dataset:
 
 - Duplicate records
 
+  <img width="237" height="83" alt="image" src="https://github.com/user-attachments/assets/2e89853e-2810-481e-b36b-c3c33d896909" />
+
+
 - Empty values
+  
+  <img width="219" height="82" alt="image" src="https://github.com/user-attachments/assets/03c35a0d-dcc9-4546-acb5-c751b28c650d" />
+
   
 - Null values
 

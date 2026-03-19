@@ -43,9 +43,12 @@ Divvy bike trip dataset (2025).
 
 Steps taken to prepare the dataset:
 
-1. Combined all the monthly tables in one table. 
+1. Combined all the monthly tables in one table.
 
-2. Data inspection
+   <img width="1496" height="874" alt="image" src="https://github.com/user-attachments/assets/148f9052-d053-410b-9430-38bad2b582f6" />
+
+
+3. Data inspection
    
 #### Check:
 

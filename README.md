@@ -48,25 +48,25 @@ Steps taken to prepare the dataset:
    <img width="1496" height="874" alt="image" src="https://github.com/user-attachments/assets/148f9052-d053-410b-9430-38bad2b582f6" />
 
 
-3. Data inspection
+2. Data inspection
    
-#### Check:
+   Check:
 
-- Column names
-
-- Data types
-
-- Duplicate records
-
-  <img width="237" height="83" alt="image" src="https://github.com/user-attachments/assets/2e89853e-2810-481e-b36b-c3c33d896909" />
-
-
-- Empty values
+    - Column names
   
-  <img width="219" height="82" alt="image" src="https://github.com/user-attachments/assets/03c35a0d-dcc9-4546-acb5-c751b28c650d" />
-
+    - Data types
   
-- Null values
+    - Duplicate records
+  
+      <img width="237" height="83" alt="image" src="https://github.com/user-attachments/assets/2e89853e-2810-481e-b36b-c3c33d896909" />
+  
+  
+    - Empty values
+    
+      <img width="219" height="82" alt="image" src="https://github.com/user-attachments/assets/03c35a0d-dcc9-4546-acb5-c751b28c650d" />
+  
+    
+    - Null values
 
 3. Create additional fields 
    - Ride Length Column (in mins)
